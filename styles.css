@@ -1,9 +1,10 @@
-table {
+.secondaryTable {
+  border: none;
   border-collapse: collapse;
+  width: 100%;
 }
-
-tr,
-th,
-td {
-  border: 1px solid black;
+.secondaryTable td {
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid black;
 }
